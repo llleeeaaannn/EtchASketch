@@ -37,8 +37,8 @@ body {
 #tile-container {
   display: flex;
   flex-direction: column;
-  width: 1000px;
-  height: 1000px;
+  width: 50vw;
+  height: 50vw;
 }
 
 #button-container {
