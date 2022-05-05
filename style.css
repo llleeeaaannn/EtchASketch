@@ -1,0 +1,149 @@
+/* General styling */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #78ccca;
+}
+
+/* Containers Placement Styling */
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 30px;
+  padding: 40px 120px;
+  margin: 100px 100px 0px 100px;
+  background-color: #ff5e5a;
+}
+
+#header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#tile-container {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 1000px;
+}
+
+#button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Row and Tile Styling */
+.row {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.tile {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  background-color: #dbdbdb;
+  border-bottom: 1px rgba(122, 122, 122, 0.5) solid;
+  border-right: 1px rgba(122, 122, 122, 0.5) solid;
+}
+
+#row0 {
+  border-top: 1px rgba(122, 122, 122, 0.5) solid;
+}
+
+#tile0 {
+  border-left: 1px rgba(122, 122, 122, 0.5) solid;
+}
+
+
+/* Header Styling */
+#header-container {
+  margin-bottom: 20px;
+}
+
+#header-container h1 {
+  font-family: 'Oleo Script Swash Caps';
+  color: #f2e65c;
+  font-size: 80px;
+}
+
+/* Button Placement Styling */
+#button-row-one,
+#button-row-two,
+#button-row-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#button-row-one {
+  margin-top: 20px;
+}
+
+#button-one-buttons,
+#button-two-buttons,
+#button-three-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 5px 0px;
+}
+
+/* Button Aesthetic Styling */
+#button-container button {
+  width: 150px;
+  padding: 10px;
+  margin: 0px 10px;
+  border: 0px;
+  border-radius: 10px;
+  font-size: 30px;
+  color: rgba(122, 122, 122, 0.75);
+  background-color: #dbdbdb;
+}
+
+#button-container span {
+  font-size: 30px;
+  font-weight: 700;
+  color: #f2e65c;
+}
+
+.hover {
+  background-color: #f2e65c !important;
+}
+
+.clicked {
+  background-color: #f2e65c !important;
+}
+
+/* Footer Styling */
+#footer-container {
+  margin: 30px;
+}
+
+#footer-container a {
+  font-family: 'Oleo Script Swash Caps';
+  font-size: 50px;
+  color: #ff5e5a;
+  text-decoration: none;
+}
